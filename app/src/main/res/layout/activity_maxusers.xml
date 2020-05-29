@@ -81,7 +81,7 @@
         android:id="@+id/textView47"
         android:layout_width="344dp"
         android:layout_height="44dp"
-        android:text="@string/text18"
+        android:text="@string/max_user_done"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="@dimen/text_heading"

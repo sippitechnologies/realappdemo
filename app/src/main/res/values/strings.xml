@@ -55,6 +55,7 @@
     <string name="text17">MAX USER LIMIT REACHED</string>
     <string name="text18">DONE ADDING USERS</string>
     <string name="text19">A very lengthy name goes here....</string>
+    <string name="max_user_done">Done for esting on Pooja branch</string>
 
 
 </resources>
