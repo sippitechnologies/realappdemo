@@ -9,18 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".maxusers"></activity>
-        <activity android:name=".addinguser" />
-        <activity android:name=".Register" />
-        <activity android:name=".unregister_user" />
-        <activity android:name=".confirmremv" />
-        <activity android:name=".confirm" />
-        <activity android:name=".done" />
-        <activity android:name=".scan" />
-        <activity android:name=".surety" />
-        <activity android:name=".verificationfailed" />
-        <activity android:name=".customverification" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".HubActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

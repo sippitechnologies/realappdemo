@@ -56,6 +56,9 @@
     <string name="text18">DONE ADDING USERS</string>
     <string name="text19">A very lengthy name goes here....</string>
     <string name="max_user_done">Done for esting on Pooja branch</string>
+    <string name="menu_add_label">Add Hub</string>
+    <string name="menu_hub_settings_title">Settings</string>
+    <string name="text_hub_title">Tap to select hub</string>
 
 
 </resources>
