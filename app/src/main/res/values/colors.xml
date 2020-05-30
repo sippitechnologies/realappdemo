@@ -6,4 +6,7 @@
     <color name="black">#000000</color>
     <color name="gray">#E3646060</color>
     <color name="white">#FFFFFF</color>
+    <color name="green">#93EC44</color>
+    <color name="red">#DC2020</color>
+
 </resources>
