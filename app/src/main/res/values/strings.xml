@@ -61,6 +61,12 @@
     <string name="head_hub">MANAGE SENSORS</string>
     <string name="followed_hub">5 Active Sensors</string>
     <string name="disarmed">Disarmed</string>
+    <string name="setting_siren">Manual Siren Control</string>
+    <string name="hub_arming">Device Arming</string>
+    <string name="hub_btn_silence">SILENCE</string>
+    <string name="hub_btn_ring">RING</string>
+    <string name="hub_btn_disarm">DISARM</string>
+    <string name="hub_btn_arm">ARM</string>
 
 
 </resources>

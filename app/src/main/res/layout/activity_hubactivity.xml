@@ -4,15 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#25646060"
     tools:context=".hubactivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:id="@+id/recyclerView"
+        android:layout_width="406dp"
+        android:layout_height="324dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:itemCount="1"
-        tools:listitem="@layout/item_hub"
+        tools:listitem="@layout/item_hub" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="155dp"
+        android:layout_height="95dp"
+        android:background="@drawable/gray_button"
+        android:drawableTop="@drawable/ic_notifications_off_black_24dp"
+        android:text="@string/hub_btn_silence"
+        app:layout_constraintBottom_toTopOf="@+id/textView52"
+        app:layout_constraintEnd_toStartOf="@+id/button15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="155dp"
+        android:layout_height="95dp"
+
+        android:layout_marginTop="72dp"
+        android:background="@drawable/roundbutton"
+        android:drawableTop="@drawable/ic_notifications_active_black_24dp"
+        android:text="@string/hub_btn_ring"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:text="@string/setting_siren"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/label_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+
+        android:text="@string/hub_arming"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/label_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="155dp"
+        android:layout_height="95dp"
+        android:background="@drawable/green_button"
+        android:drawableTop="@drawable/ic_lock_outline_black_24dp"
+        android:text="@string/hub_btn_arm"
+        android:textColor="@color/green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="155dp"
+        android:layout_height="95dp"
+        android:background="@drawable/gray_button"
+        android:drawableTop="@drawable/ic_lock_open_black_24dp"
+        android:text="@string/hub_btn_disarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button17"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:layout_constraintVertical_bias="0.146" />
 </androidx.constraintlayout.widget.ConstraintLayout>
