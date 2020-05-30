@@ -1,5 +1,6 @@
 package com.complete.sensor
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -146,6 +147,10 @@ class MainActivity : AppCompatActivity() {
                 }
 
 
+            }
+            button13.setOnClickListener {
+                val intent=Intent(this,hubactivity::class.java)
+                startActivity(intent)
             }
         }
     }

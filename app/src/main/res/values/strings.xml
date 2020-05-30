@@ -55,6 +55,12 @@
     <string name="text17">MAX USER LIMIT REACHED</string>
     <string name="text18">DONE ADDING USERS</string>
     <string name="text19">A very lengthy name goes here....</string>
+    <string name="menu_add">menu_add</string>
+    <string name="menu_setting">menu settings</string>
+    <string name="hub_home">Hub Layout</string>
+    <string name="head_hub">MANAGE SENSORS</string>
+    <string name="followed_hub">5 Active Sensors</string>
+    <string name="disarmed">Disarmed</string>
 
 
 </resources>

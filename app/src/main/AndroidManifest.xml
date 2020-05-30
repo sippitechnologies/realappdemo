@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".maxusers"></activity>
+        <activity android:name=".hubactivity"></activity>
+        <activity android:name=".maxusers" />
         <activity android:name=".addinguser" />
         <activity android:name=".Register" />
         <activity android:name=".unregister_user" />
