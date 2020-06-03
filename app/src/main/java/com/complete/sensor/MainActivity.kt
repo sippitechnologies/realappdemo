@@ -2,15 +2,12 @@ package com.complete.sensor
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.TextUtils
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import kotlinx.android.synthetic.main.activity_addinguser.*
+import com.complete.sensor.ui.hub.hubactivity
 import kotlinx.android.synthetic.main.activity_addinguser.view.*
-import kotlinx.android.synthetic.main.activity_addinguser.view.editText3
 import kotlinx.android.synthetic.main.activity_confirm.view.*
 import kotlinx.android.synthetic.main.activity_confirmremv.view.*
 import kotlinx.android.synthetic.main.activity_customverification.view.*
@@ -19,16 +16,20 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_maxusers.view.*
 import kotlinx.android.synthetic.main.activity_scan.view.*
 import kotlinx.android.synthetic.main.activity_surety.view.*
-import kotlinx.android.synthetic.main.activity_unregister_user.*
 import kotlinx.android.synthetic.main.activity_unregister_user.view.*
-import kotlinx.android.synthetic.main.activity_unregister_user.view.button10
 import kotlinx.android.synthetic.main.activity_verificationfailed.view.*
+
+
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
         button.setOnClickListener {
             val mDialogView =
                 LayoutInflater.from(this).inflate(R.layout.activity_customverification, null)
@@ -149,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 
             }
             button13.setOnClickListener {
-                val intent=Intent(this,hubactivity::class.java)
+                val intent=Intent(this, hubactivity::class.java)
                 startActivity(intent)
             }
         }

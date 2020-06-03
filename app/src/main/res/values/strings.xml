@@ -67,6 +67,7 @@
     <string name="hub_btn_ring">RING</string>
     <string name="hub_btn_disarm">DISARM</string>
     <string name="hub_btn_arm">ARM</string>
+    <string name="try_recycle">RECYCLER VIEW</string>
 
 
 </resources>

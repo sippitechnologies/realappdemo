@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hubactivity"></activity>
+        <activity android:name=".recyclerview"></activity>
+        <activity android:name=".recylclerview" />
+        <activity android:name=".recylcleview" />
+        <activity android:name=".ui.hub.hubactivity" />
         <activity android:name=".maxusers" />
         <activity android:name=".addinguser" />
         <activity android:name=".Register" />
